@@ -1,0 +1,182 @@
+.main{
+    background-color:dimgray;
+}
+ .container{
+    display: flex;
+    position:fixed;
+    left: 500px;
+    top:550px;
+    height: 100px;
+    width: 500px;
+    border: 8px solid red;
+    background-color: green;
+    border-radius: 10px;
+
+}
+.offers{
+    /* margin: 25px 0px 0px 25px; */
+    padding-left: 50px;
+    padding-top:20px;
+    font-size:25px;
+    font-weight:bold;
+    font-style:normal;
+}
+ .get-discount{
+    padding-right: 40px;
+    padding-top:30px;
+    display: grid;
+    font-size:15px;
+    font-weight: bold;
+
+ }
+
+
+.container1{
+     align-items:center;
+     display: flex;
+     justify-content: center;
+   
+}
+
+  
+.card{
+     
+    height: 175px;
+    width:500px;
+    margin:10px;
+    text-align: center;
+    background-color: white;
+    border:8px solid red;
+    border-radius: 20px;
+    color:darkmagenta ;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 0px 2px darkmagenta;
+    box-shadow: 10px 10px 2px darkmagenta;
+    
+}
+.main1{
+    height:800px;
+    width: auto;
+    border: 8px solid green;
+}
+.container2{
+     display: flex;
+     justify-content:space-between;
+}
+.card1{
+    padding: 10px;
+    height: 260px;
+    width: 220px;
+    border: 5px solid red;
+    background-color: white;
+    border:8px solid red;
+    border-radius:15px;
+    color:darkmagenta ;
+    font-size:18px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 0px 2px darkmagenta;
+    box-shadow: 10px 10px 2px darkmagenta;
+}
+.card2{
+    height: 260px;
+    width: 220px;
+    border: 5px solid red;
+    background-color: white;
+    border:8px solid red;
+    border-radius:15px;
+    box-shadow: 10px 10px 2px darkmagenta;
+}
+.container3{
+     margin:100px 0px;
+     display: flex;
+     justify-content:space-between;
+}
+.card3{
+    
+    padding: 10px;
+    height: 260px;
+    width: 220px;
+    line-height:-1px;
+    border: 5px solid red;
+    background-color: white;
+    border:8px solid red;
+    border-radius:15px;
+    font-size:25px;
+    font-weight: bold;
+    text-shadow: 2px 0px 2px darkmagenta;
+    box-shadow: 10px 10px 2px darkmagenta;
+}
+.card4{
+    padding: 10px;
+    height: 260px;
+    width: 220px;
+    border: 5px solid red;
+    background-color: white;
+    border:8px solid red;
+    border-radius:15px;
+    font-size:18px;
+    text-shadow: 2px 0px 2px darkmagenta;
+    box-shadow: 10px 10px 2px darkmagenta;
+}
+.main2{
+     display: flex;
+     align-items:center;
+     justify-content: center;
+  
+}
+.container4{
+    margin: 20px 0px 0px 0px;
+    height: 600px;
+    width: 900px;
+    border: 8px solid blueviolet ;
+    background-color: green;
+}
+.text1{
+    padding:20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container5
+{
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+}
+.card5{
+    height: 250px;
+    width: 400px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    text-align: center;
+    font-size:18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.card6{
+    height:250px;
+    width: 400px;
+    border: 2px solid yellow;
+    background-color: yellow;
+     text-align: center;
+    font-size:18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.card7{
+    margin: 20px;
+    height:200px;
+    width:900;
+    background-color: yellow;
+    text-align: center;
+    font-size:18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
