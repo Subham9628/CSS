@@ -1,0 +1,219 @@
+.mainCard{
+   
+    height:900px;
+    width:1500px;
+    background-color: yellow;
+
+}
+h1{
+    text-align: center;
+}
+ol{
+    position:absolute;
+    left:400px; 
+}
+.card1_1{
+    margin-left: 50px;
+    margin-right:70px;
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+    border: 1px solid black;
+    animation: card1_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card1_2{
+    margin-right:70px;
+    display:inline-block;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+    border: 1px solid black;
+    animation: card1_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card1_3{
+    
+    display:inline-block;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+   
+    border: 1px solid black;
+    animation: card1_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes card1_1{
+    0%{
+        transform:skewX(20deg);
+    }
+    50%{
+        transform:skewX(-20deg);
+    }
+    100%{
+        transform:skewX(20deg);
+    }
+}
+.card2_1{
+    margin-left: 50px;
+    margin-right: 70px;
+    display:inline-block;
+    height: 100px;
+    width:100px;
+    background-color:darkslategray;
+    border: 1px solid black;
+    animation: card2_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card2_2{
+    margin-right: 70px;
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color:darkslategray;
+    border: 1px solid black;
+    animation: card2_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card2_3{
+    margin-right: 70px;
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color:darkslategray;
+    border: 1px solid black;
+    animation: card2_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes card2_1{
+    0%{
+        transform:skewY(30deg);
+    }
+    50%{
+        transform:skewY(-30deg);
+    }
+    100%{
+        transform:skewY(30deg);
+    }
+  
+}
+.card3_1{
+    margin-left: 50px;
+    margin-right: 70px;
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+    border: 1px solid black;
+    animation: card3_1 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.card3_2{
+    display:inline-block;
+    margin-right: 70px;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+    border: 1px solid black;
+    animation: card3_1 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.card3_3{
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color:teal;
+    border: 1px solid black;
+    animation: card3_1 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes card3_1{
+     0%{
+        transform:rotateZ(360deg);
+    }
+    100%{
+        transform:rotateZ(720deg);
+    }
+}
+.card4_1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 70px;
+    height: 100px;
+    width:100px;
+    background-color:cornflowerblue;
+    border: 1px solid black;
+     animation: card4_1 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes card4_1{
+     0%{
+        transform:rotateX(60deg);
+    }
+    100%{
+        transform:rotateX(-60deg);
+    }
+}
+.card4_2{
+    display: inline-block;
+    margin-right: 70px;
+    height: 100px;
+    width:100px;
+    background-color:brown;
+    border: 1px solid black;
+     animation: card4_2 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes card4_2{
+     0%{
+        transform:rotateY(60deg);
+    }
+    100%{
+        transform:rotateY(-60deg);
+    }
+}
+.card4_3{
+    display: inline-block;
+    margin-right: 70px;
+    height: 100px;
+    width:100px;
+    background-color:green;
+    border: 1px solid black;
+     animation: card4_3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes card4_3{
+     0%{
+        transform:rotateZ(90deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform:rotateZ(90deg);
+    }
+}
+a{
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+
+}
+
+    
+
